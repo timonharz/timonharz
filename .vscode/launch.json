@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:timonharz}/TimonHarz",
+            "name": "Debug IgniteStarter (TimonHarz)",
+            "program": "${workspaceFolder:timonharz}/TimonHarz/.build/debug/IgniteStarter",
+            "preLaunchTask": "swift: Build Debug IgniteStarter (TimonHarz)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:timonharz}/TimonHarz",
+            "name": "Release IgniteStarter (TimonHarz)",
+            "program": "${workspaceFolder:timonharz}/TimonHarz/.build/release/IgniteStarter",
+            "preLaunchTask": "swift: Build Release IgniteStarter (TimonHarz)"
+        }
+    ]
+}
