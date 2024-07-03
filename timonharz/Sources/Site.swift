@@ -1,6 +1,5 @@
 import Foundation
 import Ignite
-import SwiftUI
 
 @main
 struct IgniteWebsite {
